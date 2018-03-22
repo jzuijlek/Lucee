@@ -620,8 +620,8 @@
     <!-- compie the source -->
     <javac 
       srcdir="${srcInst}" 
-      source="1.7" 
-      target="1.7" 
+      source="1.8" 
+      target="1.8" 
       destdir="${temp}/agent"
       debug="true" debuglevel="lines,vars,source" classpath="${dependencies}">
     </javac>
@@ -640,7 +640,8 @@
     <!-- compie the source -->
     <javac 
       srcdir="${srcLoader}" 
-      target="1.7" 
+      source="1.8" 
+      target="1.8" 
       destdir="${temp}/loader"
       debug="true" debuglevel="lines,vars,source" classpath="${dependencies}">
     </javac>
@@ -675,7 +676,8 @@
     <!-- compile the core -->
     <javac 
       srcdir="${srcCore}" 
-      target="1.7" 
+      source="1.8" 
+      target="1.8" 
       destdir="${core}"
       debug="true" debuglevel="lines,vars,source">
        <classpath refid="classpath" />

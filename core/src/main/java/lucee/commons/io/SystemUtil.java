@@ -157,6 +157,7 @@ public final class SystemUtil {
 
 	private static final String JAVA_VERSION_STRING = System.getProperty("java.version");
 	public static final int JAVA_VERSION;
+	
 	private static final Class[] EMPTY_CLASS = new Class[0];
 	private static final Object[] EMPTY_OBJ = new Object[0];
 
